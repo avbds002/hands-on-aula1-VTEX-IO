@@ -190,6 +190,30 @@ td {
   background-color: black;
   color: white;
 }
+
+.plan-btn1 {
+  color: #155dfc;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid #155dfc;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.plan-btn1:hover {
+  transition: all 0.3s ease;
+  background-color: #155dfc;
+  color: #ffffff;
+}
+
+.plan-btn2 {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid #155dfc;
+  border-radius: 20px;
+  background-color: #155dfc;
+}
 /*PLANS STYLES*/
 
 /*STUDENT STORIES STYLES*/
