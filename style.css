@@ -46,11 +46,15 @@ header {
 nav ul li {
   list-style-type: none;
   padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
   color: rgb(36, 36, 36);
 }
 
-nav ul li:hover {
-  color: blue;
+nav li a:hover {
+  color: #155dfc;
   transition: all 0.3s ease;
 }
 
@@ -177,7 +181,25 @@ p {
   border: 1px solid none;
   border-collapse: collapse;
   border-radius: 15px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
+}
+.plans-small-text {
+  font-size: 0.75rem;
+  color: #99a1af;
+}
+
+.plans-small-text-badge {
+  font-size: 0.75rem;
+  border: 1px solid none;
+  font-weight: bold;
+  padding: 0.2rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: #155dfc;
+  border-radius: 10px;
 }
 
 .prices-table th,
