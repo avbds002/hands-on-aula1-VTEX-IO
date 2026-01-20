@@ -70,17 +70,16 @@ nav.header-nav li a:hover {
   color: #155dfc;
   transition: all 0.3s ease;
 }
-
 /*NAVBAR STYLES*/
 
 /*HOME SECTION STYLES*/
-.home-container {
-  max-width: 1440px;
-  margin: auto;
+.container {
+  margin: 4rem auto 2rem auto;
+  width: 80%;
   padding: 1.5rem;
 }
 
-.home-grid {
+.home-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -89,33 +88,34 @@ nav.header-nav li a:hover {
   margin: 1.5rem;
 }
 
-.home-grid-text h1,
-p {
+.home-grid-text-mb {
   margin-bottom: 1rem;
 }
 
-.home-grid-text-aside {
+.home-grid-left-side {
   text-align: center;
-  background-color: #cde3fe;
+  background-color: #cde3fecc;
   border: 1px solid #cde3fe;
   border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.home-grid-text-aside img {
+.home-grid-left-side img {
   text-align: center;
-  height: 40vh;
+  height: 60vh;
+  width: 40vh;
   padding: 1.5rem;
 }
 
-.home-grid-text button {
+.home-grid-right-side button {
   padding: 0.75rem;
   border-radius: 10px;
   color: white;
   background-color: #155dfc;
   border: none;
 }
-
 /*HOME SECTION STYLES*/
+
 /*SERVICES SECTION STYLES*/
 .services-container {
   padding: 6rem 4rem;
