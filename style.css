@@ -5,7 +5,8 @@
   font-family: "Inter", sans-serif;
 }
 /*HEADER STYLES*/
-header {
+#header {
+  padding: 20px;
   position: sticky;
   top: 0;
   background-color: white;
@@ -13,32 +14,37 @@ header {
     0 4px 6px -1px rgb(0 0 0 / 0.1),
     0 2px 4px -2px rgb(0 0 0 / 0.1);
   transition-duration: 0.3s;
+  max-width: 1440px;
 }
 
-#header-main-title-container {
-  padding: 1rem 1.5rem;
-}
-
-.main-title {
+.header-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo-main-title {
+.logo-header-nav {
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 3;
 }
 
-.L-icon {
-  text-align: center;
+.logo-icon {
   margin: 5px;
-  background: blue;
+  width: 40px;
+  height: 40px;
+  background: #1450ef;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: 900;
   color: white;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 18px;
 }
 /*HEADER STYLES*/
 
