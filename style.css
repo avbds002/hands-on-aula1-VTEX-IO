@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 .logo-icon {
@@ -88,8 +88,18 @@ nav.header-nav li a:hover {
   margin: 1.5rem;
 }
 
-.home-grid-text-mb {
+.home-grid-text {
   margin-bottom: 1rem;
+}
+
+.home-grid-title {
+  color: #101828;
+  font-size: 3rem;
+}
+
+.home-grid-paragraph {
+  color: hsla(240, 1%, 17%, 0.74);
+  letter-spacing: 1px;
 }
 
 .home-grid-left-side {
@@ -125,20 +135,16 @@ nav.header-nav li a:hover {
 /*HOME SECTION STYLES*/
 
 /*SERVICES SECTION STYLES*/
-.services-container {
-  padding: 6rem 4rem;
-  margin: auto;
-}
-.services-main-title {
+.main-title {
   text-align: center;
   margin: 1rem;
 }
 
-.services-main-title h2,
+.main-title h2,
 p {
   margin-bottom: 0.75rem;
 }
-.services-grid {
+.services-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -146,10 +152,19 @@ p {
 }
 
 .services-card {
+  border: 1px solid #f9fafb;
+  background-color: #f9fafb;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 2rem;
 }
 
-.html-img {
+.services-card:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+.services-card-html-img {
   border: 1px solid none;
   background-color: #155dfc;
   border-radius: 5px;
@@ -157,7 +172,7 @@ p {
   margin-bottom: 1rem;
 }
 
-.modern-css {
+.services-card-modern-css-img {
   border: 1px solid none;
   background-color: #00c950;
   border-radius: 5px;
@@ -165,7 +180,7 @@ p {
   margin-bottom: 1rem;
 }
 
-.responsive-design-css {
+.services-card-responsive-design-css-img {
   border: 1px solid none;
   background-color: #9810fa;
   border-radius: 5px;
