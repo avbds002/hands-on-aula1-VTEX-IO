@@ -430,6 +430,11 @@ form button:hover {
   background-color: #0050fc;
   transition: all 0.2s ease;
 }
+
+.form-text {
+  color: #101828;
+  margin-bottom: 15px;
+}
 /*CONTACT STORIES STYLES*/
 
 /*FOOTER CONTAINER*/
