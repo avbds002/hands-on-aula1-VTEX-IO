@@ -136,6 +136,8 @@ nav.header-nav li a:hover {
 
 /*SERVICES SECTION STYLES*/
 .main-title {
+  color: #101828;
+  font-size: 1.5rem;
   text-align: center;
   margin: 1rem;
 }
@@ -149,6 +151,12 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   gap: 2rem;
+}
+
+.small-paragraph {
+  color: hsla(0, 0%, 9%, 0.74);
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .services-card {
@@ -170,6 +178,7 @@ p {
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .services-card-modern-css-img {
@@ -178,6 +187,7 @@ p {
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .services-card-responsive-design-css-img {
@@ -186,12 +196,36 @@ p {
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .services-card h3,
 p {
   margin-bottom: 0.75rem;
 }
+
+.services-card-title {
+  font-weight: 450;
+}
+
+.services-card-list-item-text {
+  color: hsla(0, 0%, 9%, 0.74);
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.services-card-list-item-html {
+  color: blue;
+}
+
+.services-card-list-item-modern-css {
+  color: #00c950;
+}
+
+.services-card-list-item-responsive {
+  color: #9810fa;
+}
+
 /*SERVICES SECTION STYLES*/
 /*PLANS STYLES*/
 .plans-container {
@@ -209,18 +243,27 @@ p {
   margin-bottom: 1rem;
 }
 
-.prices-table table {
-  border: 1px solid none;
-  border-collapse: collapse;
+.prices-table {
   border-radius: 15px;
+  overflow-x: auto;
+  /* border: 1px solid black; */
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+  border-collapse: collapse;
   width: 100%;
 }
 .plans-small-text {
   font-size: 0.75rem;
-  color: #99a1af;
+  color: hsla(0, 0%, 9%, 0.74);
+}
+
+.plans-bigger-text {
+  font-weight: 600;
+  color: #101828;
 }
 
 .plans-small-text-badge {
@@ -239,9 +282,14 @@ td {
   padding: 1rem 1.5rem;
 }
 
+.plans-td-text {
+  color: hsla(0, 0%, 0%, 0.774);
+  letter-spacing: 1px;
+}
+
 .prices-table thead tr {
   text-align: center;
-  background-color: black;
+  background-color: #101828;
   color: white;
 }
 
