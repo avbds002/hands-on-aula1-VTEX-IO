@@ -399,27 +399,18 @@ p {
 /*STUDENT STORIES STYLES*/
 
 /*CONTACT STORIES STYLES*/
-.contact-container {
-  padding: 3rem 2rem;
-  margin: auto;
-  width: 100vw;
-}
-
-.contact-main-title {
-  text-align: center;
-  margin: 1.5rem;
-}
-
 .form-container {
   border: 1px solid black;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 2rem;
   border-radius: 20px;
+  height: 50vh;
 }
 
-.form-container form input {
-  width: 60vw;
+form input {
+  width: 30vw;
   padding: 1rem;
   margin-bottom: 0.7rem;
   border-radius: 8px;
@@ -427,12 +418,17 @@ p {
 }
 
 .form-container form button {
-  padding: 0.7rem;
+  padding: 1.5rem;
   border-radius: 10px;
   border: 1px none;
   font-weight: bold;
   color: #ffffff;
   background-color: #155dfc;
+}
+
+form button:hover {
+  background-color: #0050fc;
+  transition: all 0.2s ease;
 }
 /*CONTACT STORIES STYLES*/
 
