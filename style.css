@@ -46,6 +46,10 @@
   font-weight: bold;
   font-size: 16px;
 }
+
+.btn-hidden {
+  visibility: hidden;
+}
 /*HEADER STYLES*/
 
 /*NAVBAR STYLES*/
@@ -461,3 +465,23 @@ form button:hover {
   color: #ffffff;
 }
 /*FOOTER CONTAINER*/
+
+/*
+RESPONSIVE DESIGN
+*/
+
+@media (max-width: 375px) {
+  nav.header-nav {
+    display: none;
+  }
+
+  .btn-hidden {
+    visibility: visible;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
