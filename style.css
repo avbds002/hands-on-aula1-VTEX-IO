@@ -504,4 +504,17 @@ RESPONSIVE DESIGN
   .student-abbreviation2 {
     padding: 5px;
   }
+
+  .footer-flex {
+    display: block;
+    text-align: center;
+  }
+
+  .mobile-footer-title {
+    margin-bottom: 20px;
+  }
+
+  .footer-flex a {
+    font-size: 12px;
+  }
 }
