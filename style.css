@@ -476,6 +476,11 @@ RESPONSIVE DESIGN
 
   .btn-hidden {
     visibility: visible;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffffff;
   }
 
   .home-grid-container {
