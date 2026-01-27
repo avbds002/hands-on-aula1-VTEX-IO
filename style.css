@@ -14,7 +14,6 @@
     0 4px 6px -1px rgb(0 0 0 / 0.1),
     0 2px 4px -2px rgb(0 0 0 / 0.1);
   transition-duration: 0.3s;
-  width: 100%;
   height: 4.5rem;
 }
 
@@ -470,7 +469,7 @@ form button:hover {
 RESPONSIVE DESIGN
 */
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   nav.header-nav {
     display: none;
   }
@@ -479,9 +478,30 @@ RESPONSIVE DESIGN
     visibility: visible;
   }
 
-  .container {
+  .home-grid-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+  }
+
+  .home-grid-right-side-btn {
+    margin-bottom: 0.75rem;
+  }
+
+  .services-grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .student-stories-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .student-abbreviation1 {
+    padding: 5px;
+  }
+
+  .student-abbreviation2 {
+    padding: 5px;
   }
 }
